@@ -1,9 +1,9 @@
 Реализовать алгоритм сортировки слиянием
 import java.util.Arrays;
 
-public class Z1 {
+public class task1 {
     public static void main(String[] args) {
-        int[] array1 = { 56, 89,78, 99, 105, 63,85, 79 };
+        int[] array1 = { 26, 88, 73, 92, 125, 68, 89, 71 };
         int[] result = mergesort(array1);
         System.out.println(Arrays.toString(result));
     }
